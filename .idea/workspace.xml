@@ -14,8 +14,8 @@
       <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="223">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -26,8 +26,8 @@
       <file leaf-file-name="test_clv_prediction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_clv_prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,9 +62,9 @@
       <list>
         <option value="$PROJECT_DIR$/schema.sql" />
         <option value="$PROJECT_DIR$/flaskr_tests.py" />
-        <option value="$PROJECT_DIR$/test_clv_prediction.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/api.py" />
+        <option value="$PROJECT_DIR$/test_clv_prediction.py" />
       </list>
     </option>
   </component>
@@ -184,18 +184,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 20m 56s.xml">
-      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 23m 20s.xml">
-      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 24m 12s.xml">
-      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 26m 59s.xml">
-      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 27m 10s.xml">
       <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
     </history-entry>
@@ -212,6 +200,18 @@
       <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 29m 22s.xml">
+      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 38m 14s.xml">
+      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 38m 21s.xml">
+      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 39m 14s.xml">
+      <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_clv_prediction_py - 2018.01.28 at 17h 39m 37s.xml">
       <configuration name="Unittests in test_clv_prediction.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -341,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_clv_prediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -351,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="223">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>

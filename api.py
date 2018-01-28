@@ -1,10 +1,8 @@
 from flask import Flask, g, jsonify, make_response, abort
 from flask_restful import Resource, Api
-# from flask.ext import FlaskUUID
 import sqlite3 as sql
 
 app = Flask(__name__)
-# FlaskUUID(app)
 api = Api(app)
 
 DATABASE = 'data.sqlite'
