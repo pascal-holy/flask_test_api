@@ -1,11 +1,11 @@
 import unittest
-import api
+import main
 import json
 
 
 class TestFlaskApi(unittest.TestCase):
     def setUp(self):
-        self.app = api.app.test_client()
+        self.app = main.app.test_client()
 
     def test_hello_world(self):
         response = self.app.get('/')
