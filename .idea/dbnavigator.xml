@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="bd7e01d2-61ef-487e-9e60-18f04f1c44e9">
-        <schema name="main" object-types="table, view" />
+        <schema name="main" object-types="column, table, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -75,7 +75,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="C:\Users\Terran\Documents\Lesara\database.db" schema="main" />
+            <file path="C:\Users\Terran\PycharmProjects\lesara_flask\database.db" schema="main" />
           </files>
           <os-authentication value="false" />
           <empty-password value="false" />
