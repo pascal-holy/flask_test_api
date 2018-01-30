@@ -1,9 +1,11 @@
 from flask import Flask, g, jsonify, make_response, abort
 from flask_restful import Resource, Api
 import sqlite3 as sql
+import redis
 
 app = Flask(__name__)
 api = Api(app)
+r = redis.StrictRedis(host='localhost', port=6379, db=0)
 
 DATABASE = 'data.sqlite'
 
@@ -32,12 +34,12 @@ def query_db(query, args=(), one=False):
 
 @app.route('/customers/<string:customer_id>', methods=['GET'])
 def get_data(customer_id):
-    prediction = query_db('select predicted_clv from customers where customer_id = ?', [customer_id], one=True)
+    prediction = r.get(customer_id)
 
     if prediction is None:
         abort(404)
 
-    return jsonify({'predicted_clv': prediction['predicted_clv']})
+    return jsonify({'predicted_clv': prediction})
 
 
 @app.errorhandler(404)
@@ -53,4 +55,4 @@ class HelloWorld(Resource):
 api.add_resource(HelloWorld, '/')
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", debug=True, port=80)
+    app.run(debug=True, port=80)
